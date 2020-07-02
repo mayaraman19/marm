@@ -2,6 +2,12 @@ h1 {
     font-size: 20px;
 }
 
+body {
+    background-image: url('./869905.gif');
+    height: 'window';
+    width: 'window';
+}
+
 .lists {
     color: blue;
 }
