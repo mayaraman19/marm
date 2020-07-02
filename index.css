@@ -1,17 +1,33 @@
+
 h1 {
-    font-size: 20px;
+    color: white;
+    font-size: 40;
+    font-family: 'Libre Baskerville', serif;
+    opacity: 0.85;
+}
+
+h3 {
+    color: white;
+    font-size: 20;
+    font-family: 'Libre Baskerville', serif;
+    opacity: 0.85;
 }
 
 body {
     background-image: url('./869905.gif');
-    height: 'window';
-    width: 'window';
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.lists {
-    color: blue;
+.fade-in {
+    animation: fadeIn ease 3s;
 }
 
-#big {
-    font-size: 40px;
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:0.85;
+    }
 }
