@@ -56,7 +56,12 @@ a:hover {
 }
 
 body {
-    background-image: url('./869905.gif');
+    background-image: url('./img/869905.gif');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
 }
