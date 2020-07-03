@@ -6,9 +6,39 @@
     animation: fadeIn ease 3s;
 }
 
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:0.85;
+    }
+}
+
+
 h1 {
     font-size: 70px;
+    margin-bottom: 20px;
 }
+
+.intro {
+    margin-left: 140px;
+    margin-top: 140px;
+    animation: moveUp 1s;
+}
+/*quesrionable animation*/
+@keyframes moveUp {
+    0% {
+        margin-top: 150px;
+    }
+    80% {
+        margin-top: 137px;
+    }
+    100% {
+        margin-top: 140px;
+    }
+}
+
 
 a:link{
     text-decoration: none;
@@ -19,18 +49,14 @@ a:hover {
     color: #ffb8b8;
 }
 
+.links {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
 
 body {
     background-image: url('./869905.gif');
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-@keyframes fadeIn{
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:0.85;
-    }
 }
