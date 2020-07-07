@@ -3,7 +3,7 @@
     color: white;
     font-family: 'Libre Baskerville', serif;
     opacity: 0.85;
-    animation: fadeIn ease 3s;
+    animation: fadeIn 3s;
 }
 
 @keyframes fadeIn{
@@ -24,7 +24,7 @@ h1 {
 .intro {
     margin-left: 140px;
     margin-top: 140px;
-    animation: moveUp 1s;
+    animation: moveUp ease 0.7s;
 }
 /*quesrionable animation*/
 @keyframes moveUp {
