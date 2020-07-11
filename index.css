@@ -1,7 +1,4 @@
 body {
-    /*background-image: url('./img/869905.gif');
-    background-size: cover;
-    background-repeat: no-repeat;*/
     margin: 0px;
 }
 
@@ -16,53 +13,38 @@ a:link{
 }
 
 a:hover {
-    /*color: #ffb8b8;*/
     color: #f96fc3;
     color: #ed73bc;
 }
 
-#background {
-    background-image: url('./img/869905.gif');
+#img-background {
+    
+    /*background-image: url('./img/869905.gif');*/
+    background: linear-gradient(transparent, 90%, #fadadd), url('./img/869905.gif');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    flex-flow: row wrap;
-
+    
+    
 }
 
-.intro {
-    /*margin-left: 12%;
-    margin-top: 12%;*/
-    animation: moveUp ease 0.7s;
-}
-
-
-.welcome {
+.fadein {
     color: white;
     font-family: 'Libre Baskerville', serif;
     opacity: 0.85;
     animation: fadeIn 3s;
 }
 
-
 .links {
     position: fixed;
     top: 1em;
     right: 1em;
+    display: flex;
     flex-flow: row wrap;
 }
 
-/*quesrionable animation*/
-@keyframes moveUp {
-    0% {
-        margin-top: 150px;
-    }
-    80% {
-        margin-top: 137px;
-    }
-    100% {
-        margin-top: 140px;
-    }
+.extra {
+    background-color: #fadadd;
 }
 
 @keyframes fadeIn{
