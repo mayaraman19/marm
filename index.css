@@ -18,19 +18,23 @@ a:hover {
 }
 
 #img-background {
-    
     /*background-image: url('./img/869905.gif');*/
-    background: linear-gradient(transparent, 90%, #fadadd), url('./img/869905.gif');
+    background: /*linear-gradient(transparent, 90%, #fadadd),*/ url('./img/869905.gif');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .fadein {
     color: white;
-    font-family: 'Libre Baskerville', serif;
+    /*font-family: 'Libre Baskerville', serif;*/
+    font-family: 'Oxygen', sans-serif;
     opacity: 0.85;
     animation: fadeIn 3s;
 }
@@ -43,8 +47,26 @@ a:hover {
     flex-flow: row wrap;
 }
 
-.extra {
-    background-color: #fadadd;
+.links a {
+    margin: 0 1em;
+}
+
+.more-info {
+    background-color: #ca6057;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-info h1 {
+    width: max-content;
+}
+
+.more-info h2 {
+    margin-bottom: 0px;
+    width: max-content;
 }
 
 @keyframes fadeIn{
