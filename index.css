@@ -23,7 +23,6 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,23 +50,45 @@ a:hover {
     margin: 0 1em;
 }
 
+#signature {
+    font-family: 'Courier Prime', monospace;
+    color: white;
+    opacity: 0.85;
+    position: fixed;
+    font-size: 12px;
+    bottom: 0px;
+}
+
 .more-info {
     background-color: #ca6057;
     min-height: 100vh;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
 }
 
-.more-info h1 {
+.more-info .fadein * {
+    margin-left: 10%;
+}
+
+.more-info .fadein h1 {
     width: max-content;
+    max-width: 92vw;
 }
 
-.more-info h2 {
+#maya {
+    color: #57c1ca;
+    color: #67c7cf;
+    opacity: 1.0;
+    margin: 0;
+}
+
+.more-info .fadein h2 {
     margin-bottom: 0px;
     width: max-content;
+    max-width: 92vw;
 }
+
 
 @keyframes fadeIn{
     0% {
