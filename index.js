@@ -4,4 +4,9 @@ let rand_facts = [
     "I used to exclusively lucid dream, but lost the ability when I went to college???"
 ]
 
-document.getElementById("rand-fact").innerHTML = rand_facts[1];
+
+let index=Math.round((Math.random() * 2));
+
+console.log(index);
+
+document.getElementById("rand-fact").innerHTML = rand_facts[index];
