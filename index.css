@@ -22,6 +22,7 @@ a:hover {
     background: /*linear-gradient(transparent, 90%, #fadadd),*/ url('./img/869905.gif');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     display: flex;
     flex-direction: column;
