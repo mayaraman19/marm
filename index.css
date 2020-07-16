@@ -1,100 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
 body {
     margin: 0px;
+    background-color: #ca5760;
+    max-height: 100vh;
 }
 
-h1 {
-    font-size: 70px;
-    margin: 0px;
-}
-
-a:link{
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:hover {
-    color: #f96fc3;
-    color: #ed73bc;
-}
-
-#img-background {
-    /*background-image: url('./img/869905.gif');*/
-    background: /*linear-gradient(transparent, 90%, #fadadd),*/ url('./img/869905.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.fadein {
-    color: white;
-    /*font-family: 'Libre Baskerville', serif;*/
-    font-family: 'Oxygen', sans-serif;
-    opacity: 0.85;
-    animation: fadeIn 3s;
-}
-
-.links {
-    position: fixed;
-    top: 1em;
-    right: 1em;
+.top-half {
     display: flex;
     flex-flow: row wrap;
+    margin: 10%;
 }
 
-.links a {
-    margin: 0 1em;
-}
-
-#signature {
-    font-family: 'Courier Prime', monospace;
-    color: white;
+.top-half h1 {
+    color: #FFE9E8;
     opacity: 0.85;
-    position: fixed;
-    font-size: 12px;
-    bottom: 0px;
-}
-
-.more-info {
-    background-color: #ca6057;
-    min-height: 100vh;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-}
-
-.more-info .fadein * {
-    margin-left: 10%;
-}
-
-.more-info .fadein h1 {
-    width: max-content;
-    max-width: 92vw;
-}
-
-#maya {
-    color: #57c1ca;
-    color: #67c7cf;
-    opacity: 1.0;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 100px;
     margin: 0;
 }
 
-.more-info .fadein h2 {
-    margin-bottom: 0px;
-    width: max-content;
-    max-width: 92vw;
-}
-
-@keyframes fadeIn{
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:0.85;
-    }
+.top-half ul {
+    color: #FFE9E8;
+    opacity: 0.85;
+    font-family: 'Epilogue', sans-serif;
 }
