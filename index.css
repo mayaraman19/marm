@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    top: 0;
     background-color: #ca5760;
     max-height: 100vh;
 }
@@ -9,7 +10,9 @@ body {
 .top-half {
     display: flex;
     flex-flow: row wrap;
-    margin: 10%;
+    justify-content: space-around;
+    margin: 5%;
+    margin-top: 10%;
 }
 
 .top-half h1 {
@@ -24,4 +27,60 @@ body {
     color: #FFE9E8;
     opacity: 0.85;
     font-family: 'Epilogue', sans-serif;
+    margin: 0;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 4px dashed #550909;
+}
+
+.top-half ul * {
+    margin: 1em;
+}
+
+.bottom-half {
+    margin: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-half h3 {
+    color: #FFE9E8;
+    opacity: 0.85;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.bottom-half .choices {
+    display: flex;
+    width: 80vw;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.bottom-half .choices button {
+    border-style: none;
+    background: none;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 2em;
+    color: #FFE9E8;
+    opacity: 0.85;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bottom-half .choices button:hover {
+    color: #550909;
+    transition-property: color;
+    transition-duration: 0.4s;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+.bottom-half .result {
+    align-self: flex-start;
 }
