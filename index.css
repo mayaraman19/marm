@@ -17,6 +17,7 @@ body {
     justify-content: space-around;
     margin: 5%;
     margin-top: 10%;
+    animation: fadeIn ease 2s;
 }
 
 .top-half h1 {
@@ -47,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: fadeIn ease 2s;
 }
 
 .bottom-half h3 {
@@ -95,12 +97,40 @@ button:focus {
     margin: 5%;
     flex-flow: row wrap;
     width: 80vw;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 4em;
+    animation: fadeIn ease 1s;
+    opacity: 0.85;
+
 }
 
 .bottom-half .result .popup p{
     margin: 0;
-    font-family: 'Epilogue', sans-serif;
-    font-size: 4em;
     color: #FFE9E8;
     opacity: 0.85;
+    margin-right: 0.25em;
+}
+
+.bottom-half .result .popup a {
+    margin: 0;
+    margin-right: 0.25em;
+    opacity: 0.85;
+    color: #8d3c43;
+    text-decoration: none;
+}
+
+.bottom-half .result .popup a:hover {
+    background: linear-gradient(to right, black, #502226);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:0.85;
+    }
 }
