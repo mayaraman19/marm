@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
+html {
+    max-height: 100vh;
+}
+
 body {
     margin: 0px;
     top: 0;
@@ -83,4 +87,20 @@ button:focus {
 
 .bottom-half .result {
     align-self: flex-start;
+    bottom: 0;
+    align-content: center;
+}
+
+.bottom-half .result .popup {
+    margin: 5%;
+    flex-flow: row wrap;
+    width: 80vw;
+}
+
+.bottom-half .result .popup p{
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 4em;
+    color: #FFE9E8;
+    opacity: 0.85;
 }
