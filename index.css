@@ -2,13 +2,15 @@
 
 html {
     max-height: 100vh;
+    height: 100vh;
+    background: linear-gradient(#8559d4, #d284db);
 }
 
 body {
     margin: 0px;
     top: 0;
-    background-color: #1a1830;
     max-height: 100vh;
+    opacity: 0.85;
 }
 
 .top-half {
@@ -29,7 +31,8 @@ body {
 }
 
 .top-half span {
-    color: #e2fda0;
+    color: #5fb3cf;
+    text-shadow: 2px 2px 8px #86edb4;
 }
 
 .top-half ul {
@@ -39,7 +42,7 @@ body {
     margin: 0;
     margin-left: 1em;
     padding-left: 1em;
-    border-left: 4px dashed #FFE9E8;
+    border-left: 4px dashed #86edb4;
 }
 
 .top-half ul * {
@@ -75,14 +78,14 @@ body {
     background: none;
     font-family: 'Epilogue', sans-serif;
     font-size: 2em;
-    color: #e2fda0;
+    color: #FFE9E8;
     opacity: 0.85;
     cursor: pointer;
     padding: 0;
 }
 
 .bottom-half .choices button:hover {
-    color: #550909;
+    color: #5fb3cf;
     transition-property: color;
     transition-duration: 0.4s;
 }
