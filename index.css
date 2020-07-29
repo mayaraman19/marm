@@ -21,13 +21,14 @@ body .brief-intro {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 body h1 {
-    margin-top: 20vh;
+    margin-top: 15vh;
     font-size: 60px;
     margin-bottom: 0.5em;
+    text-decoration: underline dashed #FF9916;
 }
 
 body .intro-list {
@@ -43,7 +44,7 @@ body .list {
     border-style: dashed;
     border-color: #FF9916;
     padding: 0px 1em;
-    width: fit-content;
+    min-width: fit-content;
     margin-bottom: 10vh;
 }
 
@@ -54,7 +55,7 @@ body .list li {
 .top-half {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 5%;
     margin-top: 10%;
     animation: fadeIn ease 2s;
