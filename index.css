@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Slab&display=swap');
 html {
-    max-height: 100vh;
     height: 100vh;
+    max-height: 100vh;
     background: linear-gradient(#8559d4, #d284db);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body {
@@ -23,23 +29,27 @@ body {
 
 .top-half h1 {
     color: #FFE9E8;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 100px;
     margin: 0;
 }
 
+.top-half h1 text {
+    height: max-content;
+}
+
 .top-half span {
-    color: #5fb3cf;
-    text-shadow: 2px 2px 8px #86edb4;
+    color: #66CCCC;
+    text-shadow: 3px 3px 8px #FF9916;
 }
 
 .top-half ul {
     color: #FFE9E8;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     margin: 0;
     margin-left: 1em;
     padding-left: 1em;
-    border-left: 4px dashed #86edb4;
+    border: 4px dashed #FF9916;
 }
 
 .top-half ul * {
@@ -48,7 +58,7 @@ body {
 
 .bottom-half {
     margin: 5%;
-    margin-top: 5%;
+    margin-top: 2.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +67,7 @@ body {
 
 .bottom-half h3 {
     color: #FFE9E8;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .bottom-half .choices {
@@ -72,17 +82,17 @@ body {
 .bottom-half .choices button {
     border-style: none;
     background: none;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 2em;
-    color: #FFE9E8;
+    color: #66CCCC;
     cursor: pointer;
     padding: 0;
 }
 
 .bottom-half .choices button:hover {
-    color: #5fb3cf;
-    transition-property: color;
-    transition-duration: 0.4s;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #FF9916;
 }
 
 button:focus {
@@ -98,31 +108,38 @@ button:focus {
 
 .bottom-half .result .popup {
     margin: 5%;
+    margin-top: 2.5%;
     flex-flow: row wrap;
     width: 80vw;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 4em;
     animation: fadeIn ease 1s;
+    margin-bottom: 0px;
 
 }
 
-.bottom-half .result .popup p{
+.bottom-half .result .popup p {
     margin: 0;
     color: #FFE9E8;
     margin-right: 0.25em;
+    width: max-content;
 }
 
 .bottom-half .result .popup a {
     margin: 0;
     margin-right: 0.25em;
-    color: #8d3c43;
+    color: #FF9916;
     text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .bottom-half .result .popup a:hover {
-    background: linear-gradient(to right, black, #502226);
+    /*background: linear-gradient(to right, black, #502226);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #66CCCC;
 
 }
 
