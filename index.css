@@ -83,13 +83,14 @@ body {
     font-size: 2em;
     color: #66CCCC;
     cursor: pointer;
-    padding: 0;
 }
 
 .bottom-half .choices button:hover {
-    text-decoration: underline;
+    outline-style: dotted;
+    outline-color: #FF9916;
+    /*text-decoration: underline;
     text-decoration-style: dotted;
-    text-decoration-color: #FF9916;
+    text-decoration-color: #FF9916;*/
 }
 
 button:focus {
