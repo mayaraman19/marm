@@ -20,8 +20,9 @@ body {
 body .brief-intro {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: space-evenly;
+    min-height: 100vh;
+    justify-content: center space-evenly;
+    width: 100%;
 }
 
 body h1 {
@@ -35,6 +36,9 @@ body .intro-list {
     font-size: 20px;
 }
 
+body section {
+    width: inherit;
+}
 
 body h3 {
     margin-bottom: 0.5em;
@@ -46,12 +50,52 @@ body .list {
     padding: 0px 1em;
     min-width: fit-content;
     margin-bottom: 10vh;
+    font-size: 20px;
 }
 
 body .list li {
     margin: 0.75em 0px 0.75em 1em;
+    
 }
 
+body a {
+    color: #7df9ff;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+/*.longer-intro {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.miscellaneous {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;
+}*/
+
+.end {
+    font-size: 15px;
+    justify-self: center;
+    text-align: center;
+}
+
+.end #signature {
+    font-size: 10px;
+}
+
+
+/* DEPRECATED*/
 .top-half {
     display: flex;
     flex-flow: row wrap;
