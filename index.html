@@ -6,52 +6,27 @@
             type="text/css" 
             rel="stylesheet"/>
         <link rel="icon" href="./img/evergreen-tree_1f332.png" type="image"/>
-            
     </head>
     <body>
-        <div class="top-half">
-            <h1>Hi! I'm <span>Maya</span>.</h1>
-            <ul>
-                <li>
-                    computer science @ UCLA
-                </li>
-                <li>
-                    passionate about tech + social good
-                </li>
-                <li>
-                    loves music, hiking, conspiracies
-                </li>
-            </ul>
+        <div class="brief-intro">
+            <h1>Hi, I'm Maya.</h1>
+            <nav>
+                <p class="intro-list">Get to know me like a:</p>
+                <ol class="intro-list">
+                    <li>friend --> <a>blog</a></li>
+                    <li>work friend --> <a>GitHub or LinkedIn</a></li>
+                    <li>boss --> <a>resume</a></li>
+                </ol>
+            </nav>
+            <section>
+                <h3>Brief Overview:</h3>
+                <ul class="list">
+                    <li>computer science student at UCLA</li>
+                    <li>passionate about tech + social good</li>
+                    <li>loves music, hiking, conspiracies</li>
+                </ul>
+            </section>
         </div>
-        <div class="bottom-half">
-            <h3>want to be my...</h3>
-            <div class="choices">
-                <button onclick="showLink(`friend`)" id="friend">friend?</button>
-                <button onclick="showLink(`work`)" id="work">work friend?</button>
-                <button onclick="showLink(`boss`)" id="boss">boss?</button>
-                <script src="./index.js"></script>
-            </div>
-            <div class="result">
-                <div id="medium" class ="popup" style="display:none">
-                    <p>read as I pour my heart out on
-                    <a href="https://medium.com/@maya.raman19" target="_blank">Medium</a>
-                    </p>
-                </div>
-                <div id="gitlink" class="popup" style="display:none">
-                    <p>browse through my 
-                        <a href="https://github.com/mayaraman19" target="_blank"> GitHub</a>
-                    or my
-                    <a href="https://linkedin.com/in/maya-raman" target="_blank"> LinkedIn </a>
-                    </p>
-                </div>
-                <div id="resume" class="popup" style="display:none">
-                    <p>check out my 
-                        <a href="https://docs.google.com/document/d/1AMCQIkYfoTDUPd1N0RoTvWrfSYaLVPFnzs2SOfxdT-g/export?format=pdf&attachment=false"
-                            target="_blank">resume
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
+        
     </body>
 </html>
