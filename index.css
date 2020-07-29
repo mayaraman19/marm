@@ -79,6 +79,7 @@ body {
     border-style: none;
     background: none;
     font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
     font-size: 2em;
     color: #66CCCC;
     cursor: pointer;
@@ -127,6 +128,7 @@ button:focus {
     color: #FF9916;
     text-decoration: none;
     font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
 }
 
 .bottom-half .result .popup a:hover {
