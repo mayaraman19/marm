@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Slab&display=swap');
 
 html {
-    background: linear-gradient(#8559d4, #d284db);
+    background: linear-gradient(#59405c, #87556f);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -12,7 +12,7 @@ body {
     margin-right: 25vw;
     display: flex;
     flex-direction: column;
-    color: #FFE9E8;
+    color: #ffefee;
     font-family: 'IBM Plex Mono', monospace;
     align-items: center;
 }
