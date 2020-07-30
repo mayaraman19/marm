@@ -25,19 +25,15 @@ body .brief-intro {
     width: 100%;
 }
 
-body .typing {
-    overflow: hidden;
-}
-
 body h1 {
     margin-top: 15vh;
     font-size: 60px;
     margin-bottom: 0.5em;
     text-decoration: underline dashed #FF9916;
-    /*overflow: hidden; /* Ensures the content is not revealed until the animation 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap;
     animation: 
-        typing 2s steps(26, end);*/
+        typing 2s steps(26, end);
 }
 
 /* The typing effect */
@@ -48,22 +44,50 @@ body h1 {
 
 body .intro-list {
     font-size: 20px;
+    list-style-type: none;
 }
 
-body .brief-intro #child1 {
-    /*overflow: hidden; /* Ensures the content is not revealed until the animation 
+body .brief-intro #child-1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap;
+    opacity: 0;
     animation: typing2 2s steps(44, end);
-    animation-delay: 2s;*/
+    animation-delay: 1.7s;
+    animation-fill-mode: forwards;
+}
+
+body .brief-intro #child-2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    opacity: 0;
+    animation: typing2 2s steps(44, end);
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+}
+
+body .brief-intro #child-3 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    opacity: 0;
+    animation: typing2 2s steps(44, end);
+    animation-delay: 4.0s;
+    animation-fill-mode: forwards;
+}
+
+body .brief-intro #child-4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap;
+    opacity: 0;
+    animation: typing2 2s steps(44, end);
+    animation-delay: 5.6s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes typing2 {
-    0%{opacity: 0; }
-    from {width: 0;}
+    0%{opacity: 0; width: 0;}
     1%{opacity: 1;}
-    to{width: 100%; opacity:1;}
+    100%{width: 100%; opacity:1;}
 }
-
 
 body section {
     width: inherit;
