@@ -34,13 +34,16 @@ body h1 {
     white-space: nowrap;
     animation: 
         typing 2s steps(26, end);
+    animation-fill-mode: forwards;
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 100%; }
+  101% {white-space: normal; overflow: visible;}
 }
+
 
 body .intro-list {
     font-size: 20px;
@@ -87,6 +90,7 @@ body .brief-intro #child-4 {
     0%{opacity: 0; width: 0;}
     1%{opacity: 1;}
     100%{width: 100%; opacity:1;}
+    101%{white-space: normal; overflow: visible;}
 }
 
 body section {
