@@ -4,10 +4,11 @@ html {
     
     background: linear-gradient(#2d132c, #590d25);
     
+    
     background: black;
     background: linear-gradient(#000000, #1D1D1D);
     background: linear-gradient(#113f5a, #6F755C);
-    background: linear-gradient(black 30%, #09202D);
+    background: linear-gradient(black 45%, #09202D);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -19,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #ffefee;
+    color: #ccbfbe;
     font-family: 'IBM Plex Mono', monospace;
     align-items: center;
 }
