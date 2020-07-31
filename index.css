@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Slab&display=swap');
 
 html {
-    background: linear-gradient(#000000, #191919);
+    
     background: linear-gradient(#2d132c, #590d25);
     
     background: black;
+    background: linear-gradient(#000000, #1D1D1D);
+    background: linear-gradient(#113f5a, #6F755C);
+    background: linear-gradient(black 30%, #09202D);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -131,21 +134,22 @@ body a:hover {
     text-decoration-style: dotted;
 }
 
-/*.longer-intro {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    scroll-snap-align: start;
+
+body .project-card {
+    border-style: dashed;
+    border-color: #ff6600;
+    font-size: 20px;
+    padding: 0 1em;
+    min-width: fit-content;
+    width: inherit;
+    margin-bottom: 10vh;
+    margin-block-start: 1em;
 }
 
-.miscellaneous {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    scroll-snap-align: start;
-}*/
+body .project-card h4 {
+    font-size: 20px;
+    margin-top: 0.75em;
+}
 
 .end {
     font-size: 15px;
