@@ -32,7 +32,7 @@ body .brief-intro {
     width: 100%;
 }
 
-body h1 {
+body .brief-intro #typing1 {
     margin-top: 15vh;
     font-size: 60px;
     margin-bottom: 0.5em;
