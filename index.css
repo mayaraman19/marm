@@ -2,13 +2,7 @@
 
 html {
     
-    background: linear-gradient(#2d132c, #590d25);
-    
-    
-    background: black;
-    background: linear-gradient(#000000, #1D1D1D);
-    background: linear-gradient(#113f5a, #6F755C);
-    background: linear-gradient(black 45%, #09202D);
+    background: linear-gradient(to bottom right, black 50%, #260c1a 50%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
