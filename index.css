@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Slab&display=swap');
 
 html {
-    background: linear-gradient(to bottom right, black 50%, #750038);
+    background: linear-gradient(black, black);
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-repeat: no-repeat;
     -webkit-background-attachment: fixed;
     background-color: #c6da20;
+    
 }
 
 body {
