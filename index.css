@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #E4DCCE;
+    line-height: 1.5;
     font-family: 'IBM Plex Mono', monospace;
     align-items: center;
     
