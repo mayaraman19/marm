@@ -2,18 +2,8 @@
 
 
 html {
-<<<<<<< HEAD
-    background: linear-gradient(black, black);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-repeat: no-repeat;
-    -webkit-background-attachment: fixed;
-    background-color: #c6da20;
-    
-=======
     font-size: 16px;
     line-height: 1.5;
->>>>>>> new
 }
 
 body {
@@ -21,20 +11,8 @@ body {
     color: black;
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0px;
-<<<<<<< HEAD
-    margin-left: 25vw;
-    margin-right: 25vw;
-    display: flex;
-    flex-direction: column;
-    color: #fceccf;
-    line-height: 1.5;
-    font-family: 'IBM Plex Mono', monospace;
-    align-items: center;
-    
-=======
     animation: fadeIn 2s;
     animation-fill-mode: forwards;
->>>>>>> new
 }
 
 .page-layout {
