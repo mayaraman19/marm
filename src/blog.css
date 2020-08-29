@@ -1,0 +1,20 @@
+
+#nav {
+    position: fixed;
+    top: 2em;
+    left: 2em;
+}
+
+#blog-intro {
+    margin-top: 15vh;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    align-self: flex-start;
+    text-decoration: underline dashed #ff6600;
+    -webkit-text-decoration: underline dashed #ff6600;
+}
+
+#nothing {
+    align-self: flex-start;
+}
+
