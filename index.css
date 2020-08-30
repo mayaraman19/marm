@@ -39,7 +39,7 @@ body {
 }
 
 .front-link {
-    color: #698474;
+    color: #3F5310;
     font-size: 20px;
     text-decoration: none;
     width: max-content;
@@ -66,7 +66,7 @@ body {
 
 
 .left-green {
-    border-left: 3px solid #698474;
+    border-left: 3px solid #3F5310;
     padding-left: 1em;
 }
 
@@ -81,7 +81,7 @@ p {
 }
 
 .green {
-    color: #698474;
+    color: #3F5310;
 }
 
 .orange {
@@ -106,35 +106,42 @@ p {
 }
 
 .project {
-    background-color: #698474;
+    background-color: #3F5310;
 }
 
 .position {
     background-color: #CF5300;
 }
 
-.card a {
-    color: #B8F842;
+.position a {
+    font-weight: normal;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    color: #3F5310;
     text-decoration: none;
-    -webkit-text-decoration: none;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
 }
 
-.card a:hover {
-    text-decoration: underline #B8F842 solid;
-    -webkit-text-decoration: underline #B8F842 solid;
+.position a:hover {
+    background-color: #3F5310;
+    color: white;
 }
 
-/* .project a{
-    color: #B8F842;
-    text-decoration: underline #CF5300 solid;
-    -webkit-text-decoration: underline #CF5300 solid;
+.project a{
+    font-weight: normal;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    color: #CF5300;
+    text-decoration: none;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
 }
 
 .project a:hover {
-    color: #CF5300;
-    text-decoration: underline white solid;
-    -webkit-text-decoration: underline white solid;
-} */
+    background-color: #CF5300;
+    color: white;
+}
 
 .subhead {
     margin-top: 2em;
@@ -144,7 +151,7 @@ p {
     font-size: 20px;
     list-style-type: devanagari;
     margin: 0px;
-    color: #698474;
+    color: #3F5310;
 
 }
 
