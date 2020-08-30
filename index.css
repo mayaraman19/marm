@@ -35,6 +35,7 @@ body {
 
 .header {
     text-decoration: underline #CF5300 solid;
+    -webkit-text-decoration: underline #CF5300 solid;
 }
 
 .front-link {
@@ -46,6 +47,7 @@ body {
 
 .front-link:hover {
     text-decoration: underline #CF5300 dotted;
+    -webkit-text-decoration: underline #CF5300 dotted;
 }
 .to-home {
     color: black;
@@ -59,6 +61,7 @@ body {
 
 .to-home:hover {
     text-decoration: underline #CF5300 solid;
+    -webkit-text-decoration: underline #CF5300 solid;
 }
 
 
@@ -113,21 +116,25 @@ p {
 .position a {
     color: white;
     text-decoration: underline #698474 solid;
+    -webkit-text-decoration: underline #698474 solid;
 }
 
 .position a:hover {
     color: #698474;
     text-decoration: underline white solid;
+    -webkit-text-decoration: underline white solid;
 }
 
 .project a{
     color: white;
     text-decoration: underline #CF5300 solid;
+    -webkit-text-decoration: underline #CF5300 solid;
 }
 
 .project a:hover {
     color: #CF5300;
     text-decoration: underline white solid;
+    -webkit-text-decoration: underline white solid;
 }
 
 .subhead {
