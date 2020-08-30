@@ -91,6 +91,7 @@ p {
 .subsubhead {
     margin-top: 2em;
     border-bottom: 3px #CF5300 dotted;
+    -webkit-border-bottom: 3px #CF5300 dotted;
 }
 
 .card {
