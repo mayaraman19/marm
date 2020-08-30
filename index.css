@@ -39,7 +39,7 @@ body {
 }
 
 .front-link {
-    color: #3F5310;
+    color: #698474;
     font-size: 20px;
     text-decoration: none;
     width: max-content;
@@ -66,7 +66,7 @@ body {
 
 
 .left-green {
-    border-left: 3px solid #3F5310;
+    border-left: 3px solid #698474;
     padding-left: 1em;
 }
 
@@ -81,7 +81,7 @@ p {
 }
 
 .green {
-    color: #3F5310;
+    color: #698474;
 }
 
 .orange {
@@ -106,7 +106,7 @@ p {
 }
 
 .project {
-    background-color: #3F5310;
+    background-color: #698474;
 }
 
 .position {
@@ -117,14 +117,14 @@ p {
     font-weight: normal;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
-    color: #3F5310;
+    color: #698474;
     text-decoration: none;
     padding-left: 0.25em;
     padding-right: 0.25em;
 }
 
 .position a:hover {
-    background-color: #3F5310;
+    background-color: #698474;
     color: white;
 }
 
@@ -151,7 +151,7 @@ p {
     font-size: 20px;
     list-style-type: devanagari;
     margin: 0px;
-    color: #3F5310;
+    color: #698474;
 
 }
 
