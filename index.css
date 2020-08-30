@@ -113,20 +113,19 @@ p {
     background-color: #CF5300;
 }
 
-.position a {
-    color: white;
-    text-decoration: underline #698474 solid;
-    -webkit-text-decoration: underline #698474 solid;
+.card a {
+    color: #B8F842;
+    text-decoration: none;
+    -webkit-text-decoration: none;
 }
 
-.position a:hover {
-    color: #698474;
-    text-decoration: underline white solid;
-    -webkit-text-decoration: underline white solid;
+.card a:hover {
+    text-decoration: underline #B8F842 solid;
+    -webkit-text-decoration: underline #B8F842 solid;
 }
 
-.project a{
-    color: white;
+/* .project a{
+    color: #B8F842;
     text-decoration: underline #CF5300 solid;
     -webkit-text-decoration: underline #CF5300 solid;
 }
@@ -135,7 +134,7 @@ p {
     color: #CF5300;
     text-decoration: underline white solid;
     -webkit-text-decoration: underline white solid;
-}
+} */
 
 .subhead {
     margin-top: 2em;
