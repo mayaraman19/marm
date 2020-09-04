@@ -9,3 +9,13 @@
 .hikes {
     color: white;
 }
+
+.intro-hikes {
+    border-bottom: 3px #CF5300 double;
+    -webkit-border-bottom: 3px #CF5300 double;
+    padding-bottom: 1em;
+}
+
+.date {
+    font-size: 40px;
+}
