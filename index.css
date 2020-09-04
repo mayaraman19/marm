@@ -35,6 +35,7 @@ body {
 
 .header {
     text-decoration: underline #CF5300 solid;
+    -webkit-text-decoration: underline #CF5300 solid;
 }
 
 .front-link {
@@ -46,6 +47,7 @@ body {
 
 .front-link:hover {
     text-decoration: underline #CF5300 dotted;
+    -webkit-text-decoration: underline #CF5300 dotted;
 }
 .to-home {
     color: black;
@@ -59,6 +61,7 @@ body {
 
 .to-home:hover {
     text-decoration: underline #CF5300 solid;
+    -webkit-text-decoration: underline #CF5300 solid;
 }
 
 
@@ -85,6 +88,11 @@ p {
     color: #CF5300;
 }
 
+.subsubhead {
+    margin-top: 2em;
+    border-bottom: 3px #CF5300 dotted;
+    -webkit-border-bottom: 3px #CF5300 dotted;
+}
 
 .card {
     margin-top: 2em;
@@ -111,23 +119,33 @@ p {
 }
 
 .position a {
-    color: white;
-    text-decoration: underline #698474 solid;
+    font-weight: normal;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 5px;
+    color: #698474;
+    text-decoration: none;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
 }
 
 .position a:hover {
-    color: #698474;
-    text-decoration: underline white solid;
+    background-color: #698474;
+    color: white;
 }
 
 .project a{
-    color: white;
-    text-decoration: underline #CF5300 solid;
+    font-weight: normal;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    color: #CF5300;
+    text-decoration: none;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
 }
 
 .project a:hover {
-    color: #CF5300;
-    text-decoration: underline white solid;
+    background-color: #CF5300;
+    color: white;
 }
 
 .subhead {
