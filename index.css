@@ -102,6 +102,7 @@ p {
     padding: 1em;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: lighter;
+    border-radius: 7px;
 }
 
 .card h3 {
