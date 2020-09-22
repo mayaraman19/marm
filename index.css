@@ -34,8 +34,8 @@ body {
 }
 
 .header {
-    text-decoration: underline #CF5300 solid;
-    -webkit-text-decoration: underline #CF5300 solid;
+    text-decoration: underline #f29000 solid;
+    -webkit-text-decoration: underline #f29000 solid;
 }
 
 .front-link {
@@ -46,8 +46,8 @@ body {
 }
 
 .front-link:hover {
-    text-decoration: underline #CF5300 dotted;
-    -webkit-text-decoration: underline #CF5300 dotted;
+    text-decoration: underline #f29000 dotted;
+    -webkit-text-decoration: underline #f29000 dotted;
 }
 .to-home {
     color: black;
@@ -60,8 +60,8 @@ body {
 }
 
 .to-home:hover {
-    text-decoration: underline #CF5300 solid;
-    -webkit-text-decoration: underline #CF5300 solid;
+    text-decoration: underline #f29000 solid;
+    -webkit-text-decoration: underline #f29000 solid;
 }
 
 
@@ -85,13 +85,13 @@ p {
 }
 
 .orange {
-    color: #CF5300;
+    color: #f29000;
 }
 
 .subsubhead {
     margin-top: 2em;
-    border-bottom: 3px #CF5300 dotted;
-    -webkit-border-bottom: 3px #CF5300 dotted;
+    border-bottom: 3px #f29000 dotted;
+    -webkit-border-bottom: 3px #f29000 dotted;
 }
 
 .card {
@@ -116,12 +116,12 @@ p {
 }
 
 .position {
-    background-color: #CF5300;
+    background-color: #f29000;
 }
 
 .position a {
     font-weight: normal;
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     color: #698474;
     text-decoration: none;
@@ -136,16 +136,16 @@ p {
 
 .project a{
     font-weight: normal;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
-    color: #CF5300;
+    color: #f29000;
     text-decoration: none;
     padding-left: 0.25em;
     padding-right: 0.25em;
 }
 
 .project a:hover {
-    background-color: #CF5300;
+    background-color: #f29000;
     color: white;
 }
 
